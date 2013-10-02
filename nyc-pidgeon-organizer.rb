@@ -2,9 +2,9 @@
 # NYC PIGEON ORGANIZER #
 ########################
 
-# The following data on NYC pidgeons has been collected from around the city.
+# Start with the following collected data on NYC pigeons.
 
-pidgeon_data = {
+pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
     :grey => ["Theo", "Peter Jr.", "Ms .K"],
@@ -23,43 +23,42 @@ pidgeon_data = {
   }
 }
 
-# Use the collected data above and rebuild it into the example hash below 
-# that displays the individual attributes of each bird organized by name.
+# Collect each pigeon by name and rebuild it into the hash below hat displays the individual sttributes of each bird.
 
-# pidgeon_list = {
+# pigeon_list = {
 #   "Theo" => {
-#     :colors => ["Purple", "Grey"],
-#     :gender => "Male",
+#     :color => ["purple", "grey"],
+#     :gender => "male",
 #     :lives => "Subway"
 #   },
 #   "Peter Jr." => {
-#     :colors => ["Purple", "Grey"],
-#     :gender => "Male",
+#     :color => ["purple", "grey"],
+#     :gender => "male",
 #     :lives => "Library"
 #   },
 #   "Lucky" => {
-#     :colors => ["Purple"],
-#     :gender => "Male",
+#     :color => ["purple"],
+#     :gender => "male",
 #     :lives => "City Hall"
 #   },
 #   "Ms .K" => {
-#     :colors => ["Grey", "White"],
-#     :gender => "Female",
+#     :color => ["grey", "white"],
+#     :gender => "female",
 #     :lives => "Central Park"
 #   },
 #   "Queenie" => {
-#     :colors => ["Brown", "White"],
-#     :gender => "Female",
+#     :color => ["white", "brown"],
+#     :gender => "female",
 #     :lives => "Subway"
 #   },
 #   "Andrew" => {
-#     :colors => ["White"],
-#     :gender => "Male",
+#     :color => ["white"],
+#     :gender => "male",
 #     :lives => "Central Park"
 #   },
 #   "Alex" => {
-#     :colors => ["Brown", "White"],
-#     :gender => "Male",
+#     :color => ["white", "brown"],
+#     :gender => "male",
 #     :lives => "Central Park"
 #   }
 # }
