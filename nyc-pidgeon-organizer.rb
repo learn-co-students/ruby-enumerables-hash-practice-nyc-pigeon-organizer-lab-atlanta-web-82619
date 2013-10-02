@@ -23,8 +23,9 @@ pigeon_data = {
   }
 }
 
-# Iterate over the hash above collecting each pigeon by name by and rebuild it into the hash below 
-# that displays the individual attributes of each bird.
+# Iterate over the hash above collecting each pigeon by name and insert it
+# as the key of a new hash where each name holds the attributes for that bird. 
+# Your output should match the hash below:
 
 # pigeon_list = {
 #   "Theo" => {
