@@ -51,7 +51,7 @@ pigeon_list = {
   "Lucky" => {
     :color => ["purple"],
     :gender => "male",
-    :lives => "City Hall"
+    :lives => "Central Park"
   },
   "Ms .K" => {
     :color => ["grey", "white"],
@@ -66,7 +66,7 @@ pigeon_list = {
   "Andrew" => {
     :color => ["white"],
     :gender => "male",
-    :lives => "Central Park"
+    :lives => "City Hall"
   },
   "Alex" => {
     :color => ["white", "brown"],

@@ -38,7 +38,7 @@ describe "NYC Pigeon Organizer" do
       "Lucky" => {
         :color => ["purple"],
         :gender => "male",
-        :lives => "City Hall"
+        :lives => "Central Park"
       },
       "Ms .K" => {
         :color => ["grey", "white"],
@@ -53,7 +53,7 @@ describe "NYC Pigeon Organizer" do
       "Andrew" => {
         :color => ["white"],
         :gender => "male",
-        :lives => "Central Park"
+        :lives => "City Hall"
       },
       "Alex" => {
         :color => ["white", "brown"],
