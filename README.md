@@ -1,11 +1,15 @@
 ---
-  tags: hashes
+  tags: hashes, iteration
   languages: ruby
 ---
 
-# NYC PIGEON ORGANIZER
+# NYC Pigeon Organizer
 
-Start with the following collected data on NYC pigeons.
+### Skills: Hashes, Iteration, Sorting
+
+## Instructions
+
+You are given the following collected data on New York City pigeons in the form of a hash.
 
 ```ruby
 pigeon_data = {
@@ -28,7 +32,7 @@ pigeon_data = {
 }
 ```
 
-Iterate over the hash above collecting each pigeon by name and insert it
+1. Iterate over the hash above, collecting each pigeon by name and insert it
 as the key of a new hash where each name holds the attributes for that bird. 
 Your output should match the hash below:
 
