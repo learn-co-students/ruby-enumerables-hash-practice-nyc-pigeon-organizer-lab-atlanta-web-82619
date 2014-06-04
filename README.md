@@ -1,5 +1,5 @@
 ---
-  tags: hashes, iteration
+  tags: hashes, iteration, data structures, sorting
   languages: ruby
   resources: 1
 ---
