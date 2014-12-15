@@ -4,7 +4,7 @@
   resources: 1
 ---
 
-# NYC Pigeon Organizer
+## NYC Pigeon Organizer
 
 ### Skills: Hashes, Iteration, Sorting
 
