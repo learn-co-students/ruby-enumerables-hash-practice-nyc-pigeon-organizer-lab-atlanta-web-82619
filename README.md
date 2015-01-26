@@ -1,7 +1,7 @@
 ---
-  tags: hashes, iteration, data structures, sorting
-  languages: ruby
-  resources: 1
+tags: hashes, iteration, data structures, sorting
+languages: ruby
+resources: 1
 ---
 
 ## NYC Pigeon Organizer
@@ -16,17 +16,17 @@ You are given the following collected data on New York City pigeons in the form 
 pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
-    :grey => ["Theo", "Peter Jr.", "Ms .K"],
-    :white => ["Queenie", "Andrew", "Ms .K", "Alex"],
+    :grey => ["Theo", "Peter Jr.", "Ms. K"],
+    :white => ["Queenie", "Andrew", "Ms. K", "Alex"],
     :brown => ["Queenie", "Alex"]
   },
   :gender => {
     :male => ["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"],
-    :female => ["Queenie", "Ms .K"]
+    :female => ["Queenie", "Ms. K"]
   },
   :lives => {
     "Subway" => ["Theo", "Queenie"],
-    "Central Park" => ["Alex", "Ms .K", "Lucky"],
+    "Central Park" => ["Alex", "Ms. K", "Lucky"],
     "Library" => ["Peter Jr."],
     "City Hall" => ["Andrew"]
   }
@@ -35,7 +35,7 @@ pigeon_data = {
 
 Iterate over the hash above, collecting each pigeon by name and insert it
 as the key of a new hash where each name holds the attributes for that bird. 
-Your output should match the hash below:
+Your output should look something like the hash below:
 
 ```ruby
 pigeon_list = {
@@ -54,7 +54,7 @@ pigeon_list = {
     :gender => ["male"],
     :lives => ["Central Park"]
   },
-  "Ms .K" => {
+  "Ms. K" => {
     :color => ["grey", "white"],
     :gender => ["female"],
     :lives => ["Central Park"]
@@ -76,5 +76,7 @@ pigeon_list = {
   }
 }
 ```
+
 ## Resources
+
 * [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [8.1 The Method each](http://books.flatironschool.com/books/11), page 65
