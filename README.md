@@ -77,6 +77,3 @@ pigeon_list = {
 }
 ```
 
-## Resources
-
-* [Programming Ruby 1.9](http://books.flatironschool.com/books/11) - [8.1 The Method each](http://books.flatironschool.com/books/11), page 65
