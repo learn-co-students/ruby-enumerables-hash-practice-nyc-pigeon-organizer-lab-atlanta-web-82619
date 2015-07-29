@@ -1,8 +1,4 @@
----
-tags: hashes, iteration, data structures, sorting
-languages: ruby
-resources: 1
----
+
 
 ## NYC Pigeon Organizer
 
