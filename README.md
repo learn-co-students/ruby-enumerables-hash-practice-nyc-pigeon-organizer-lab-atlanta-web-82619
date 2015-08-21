@@ -1,8 +1,10 @@
 
-
 ## NYC Pigeon Organizer
 
-### Skills: Hashes, Iteration, Sorting
+## Objectives
+
+1. Understand Hashes and Nesting
+2. Work on Sorting Hashes and manipulating nested data structures.
 
 ## Instructions
 
