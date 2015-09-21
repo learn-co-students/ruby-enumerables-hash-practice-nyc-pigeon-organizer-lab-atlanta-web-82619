@@ -1,4 +1,3 @@
-
 ## NYC Pigeon Organizer
 
 ## Objectives
@@ -40,12 +39,12 @@ pigeon_list = {
   "Theo" => {
     :color => ["purple", "grey"],
     :gender => ["male"],
-    :lives => ["Subway]"
+    :lives => ["Subway"]
   },
   "Peter Jr." => {
     :color => ["purple", "grey"],
     :gender => ["male"],
-    :lives => ["Library]"
+    :lives => ["Library"]
   },
   "Lucky" => {
     :color => ["purple"],
