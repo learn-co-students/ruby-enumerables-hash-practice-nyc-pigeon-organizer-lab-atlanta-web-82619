@@ -169,5 +169,61 @@ describe "NYC Pigeon Organizer" do
       end
 
     end # context
+
+    context "Alternate data set" do
+      before(:all) do
+        pigeon_data = {
+          :color => {
+            :brown => ["Luca"],
+            :black => ["Lola"],
+          },
+          :gender => {
+            :male => ["Luca"],
+            :female => ["Lola"]
+          },
+          :lives => {
+            "Central Park" => ["Lola"],
+            "Library" => ["Luca"]
+          }
+        }
+        @result = nyc_pigeon_organizer(pigeon_data)
+      end
+
+      context "Luca" do
+        before(:all) do
+          @luca = @result["Luca"]
+        end
+        it "knows Alex is white and brown" do
+          expect(@luca[:color].length).to eq(1)
+          expect(@luca[:color]).to include("brown")
+        end
+        it "knows Alex is male" do
+          expect(@luca[:gender].length).to eq(1)
+          expect(@luca[:gender]).to include("male")
+        end
+        it "knows Alex lives in central park" do
+          expect(@luca[:lives].length).to eq(1)
+          expect(@luca[:lives]).to include("Library")
+        end
+      end
+
+      context "Lola" do
+        before(:all) do
+          @lola = @result["Lola"]
+        end
+        it "knows Alex is white and brown" do
+          expect(@lola[:color].length).to eq(1)
+          expect(@lola[:color]).to include("black")
+        end
+        it "knows Alex is male" do
+          expect(@lola[:gender].length).to eq(1)
+          expect(@lola[:gender]).to include("female")
+        end
+        it "knows Alex lives in central park" do
+          expect(@lola[:lives].length).to eq(1)
+          expect(@lola[:lives]).to include("Central Park")
+        end
+      end
+    end
   end # method
 end # suite
